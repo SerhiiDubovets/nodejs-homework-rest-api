@@ -8,6 +8,10 @@ const app = express();
 
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
+const dotenv = require("dotenv");
+
+dotenv.config();
+
 app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
