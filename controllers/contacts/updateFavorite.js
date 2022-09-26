@@ -1,10 +1,10 @@
 const { Contact, schemas } = require("../../models/contact");
 const { RequestError } = require("../../helpers");
 
-const updateContact = async (req, res, next) => {
-  const { error } = schemas.addSchema.validate(req.body);
+const updateFavorite = async (req, res, next) => {
+  const { error } = schemas.updateFavoriteSchema.validate(req.body);
   if (error) {
-    const error = new Error("missing fields");
+    const error = new Error("missing field favorite");
     error.status = 400;
     throw error;
   }
@@ -22,4 +22,4 @@ const updateContact = async (req, res, next) => {
   });
 };
 
-module.exports = updateContact;
+module.exports = updateFavorite;
