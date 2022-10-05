@@ -3,10 +3,13 @@ const { RequestError } = require("../../helpers");
 
 const removeContact = async (req, res, next) => {
   const { id } = req.params;
-  const result = await Contact.findByIdAndRemove(id);
+  const { _id } = req.user;
+  const result = await Contact.findOneAndDelete({ id, owner: _id });
+
   if (!result) {
     throw RequestError(404, "Not found");
   }
+
   res.json({
     status: "success",
     code: 200,
