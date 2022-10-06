@@ -1,5 +1,6 @@
 const { User, updateSubscriptionSchema } = require("../../models/user");
 const { RequestError } = require("../../helpers");
+console.log(User.schema);
 
 const getSubscription = async (req, res) => {
   const { error } = updateSubscriptionSchema.validate(req.body);
@@ -12,9 +13,6 @@ const getSubscription = async (req, res) => {
 
   const { _id } = req.user;
   const { subscription } = req.body;
-  if (!["starter", "pro", "business"].some((e) => e === subscription)) {
-    throw RequestError(400);
-  }
   const result = await User.findByIdAndUpdate(
     _id,
     { subscription: subscription },
