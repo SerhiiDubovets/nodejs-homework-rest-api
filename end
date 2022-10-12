@@ -1,0 +1,124 @@
+[33mcommit ddcc938c381a15e0171e393af032521fe7ea32b4[m[33m ([m[1;36mHEAD -> [m[1;32mhw05-avatars[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: a58478a 63e6699
+Author: Nadya Hristuk <elhe2013@gmail.com>
+Date:   Thu Oct 6 22:38:49 2022 +0300
+
+    Merge pull request #3 from SerhiiDubovets/hw04-auth
+    
+    Виконання дз4
+
+[33mcommit 63e6699c4b13022798b5abaa70e405da415c20cf[m[33m ([m[1;31morigin/hw04-auth[m[33m, [m[1;32mhw04-auth[m[33m)[m
+Author: SerhiiDubovets <Sergio.d@bigmir.net>
+Date:   Thu Oct 6 12:56:46 2022 +0300
+
+    переробка
+
+[33mcommit cead4379ca875c6e9dbf150d216df70e9b9e7731[m
+Author: SerhiiDubovets <Sergio.d@bigmir.net>
+Date:   Wed Oct 5 23:03:25 2022 +0300
+
+    Виконання дз4
+
+[33mcommit a58478afd8396c4b9587e1fd8b77ab1e3e894450[m
+Merge: 606c5ee dd65101
+Author: Nadya Hristuk <elhe2013@gmail.com>
+Date:   Mon Sep 26 17:04:21 2022 +0300
+
+    Merge pull request #2 from SerhiiDubovets/hw03-mongodb
+    
+    Hw03 mongodb
+
+[33mcommit dd651013613f8aa0c176eb9ac61e51b58c55b579[m[33m ([m[1;31morigin/hw03-mongodb[m[33m, [m[1;32mhw03-mongodb[m[33m)[m
+Author: SerhiiDubovets <Sergio.d@bigmir.net>
+Date:   Mon Sep 26 10:23:05 2022 +0300
+
+    виконання дз3
+
+[33mcommit 53c0f32c2a811f5f1a4e4653dc8a800bd68f09d7[m
+Author: SerhiiDubovets <Sergio.d@bigmir.net>
+Date:   Fri Sep 23 16:55:45 2022 +0300
+
+    add mongoose
+
+[33mcommit 606c5eeaa73f98c11adbac5827eb1d392ac0d409[m
+Merge: cbaae43 5a77b30
+Author: Nadya Hristuk <elhe2013@gmail.com>
+Date:   Wed Sep 21 08:54:54 2022 +0300
+
+    Merge pull request #1 from SerhiiDubovets/hw02-express
+    
+    hw2
+
+[33mcommit 5a77b3061fca1557bd1d3a1b3ecdf8bde6ed2a56[m[33m ([m[1;31morigin/hw02-express[m[33m, [m[1;32mhw02-express[m[33m)[m
+Author: SerhiiDubovets <Sergio.d@bigmir.net>
+Date:   Mon Sep 19 15:50:51 2022 +0300
+
+    hw2
+
+[33mcommit cbaae4359c0ec6b65fc72b3e59d6e28c59108381[m[33m ([m[1;31mupstream/master[m[33m, [m[1;31mupstream/HEAD[m[33m)[m
+Merge: 8f94f7a efffa81
+Author: BogdanLyamzin <45244594+BogdanLyamzin@users.noreply.github.com>
+Date:   Fri Jun 3 17:34:17 2022 +0300
+
+    Merge pull request #781 from goitacademy/translate
+    
+    translate md to UA
+
+[33mcommit efffa814edee05e9c4c3db3536d1a0d50b50b259[m[33m ([m[1;31mupstream/translate[m[33m)[m
+Author: Valeria <i18n@goit.global>
+Date:   Fri Jun 3 17:26:31 2022 +0300
+
+    translate to UA
+
+[33mcommit 8f94f7a84fe9c691ec126e5a35b4b47b01835586[m
+Author: MandorSavall <bogdan.lyamzin.d@gmail.com>
+Date:   Sun Apr 3 09:00:05 2022 +0300
+
+    add .env to .gitignore
+
+[33mcommit 6a60d014a60b9ac740f970017932df1950d4fb5d[m
+Author: MandorSavall <bogdan.lyamzin.d@gmail.com>
+Date:   Sat Jan 22 16:39:17 2022 +0200
+
+    fix
+
+[33mcommit a065861e0bd71f93c1bd7782d061d0f2fd6ed5ac[m
+Merge: a2e080b 82f757b
+Author: Yuriy Kuchma <krabatua@gmail.com>
+Date:   Wed Jan 19 23:27:56 2022 +0200
+
+    Merge pull request #535 from goitacademy/small-fix
+    
+    add small fix
+
+[33mcommit 82f757b05439601a8e32620fe1360394deaee405[m
+Author: MandorSavall <bogdan.lyamzin.d@gmail.com>
+Date:   Wed Jan 19 20:50:40 2022 +0200
+
+    small fix
+
+[33mcommit 6918b59a16c4acb57f0b31d1050ea4eec9d43b87[m
+Author: MandorSavall <bogdan.lyamzin.d@gmail.com>
+Date:   Wed Jan 19 17:50:22 2022 +0200
+
+    add small fix
+
+[33mcommit a2e080bc28d5790e5a4ca90479c4d0037b1367cb[m
+Author: krabaton <krabatua@gmail.com>
+Date:   Wed Dec 15 05:01:17 2021 +0200
+
+    light fix
+    add prettier to config
+
+[33mcommit dd40ecfd49d70eb26883b844dbf89ffa7a247af2[m
+Author: krabaton <krabatua@gmail.com>
+Date:   Fri Feb 12 15:01:08 2021 +0200
+
+    Refactor.
+    Simplification of the structure.
+
+[33mcommit f93f2acad8ed901a443ef16cb549486ab8482cc9[m
+Author: krabaton <krabatua@gmail.com>
+Date:   Mon Feb 8 02:57:53 2021 +0200
+
+    first commit
