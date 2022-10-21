@@ -15,7 +15,6 @@ router.get("/", auth, ctrlWrapper(ctrl.listContacts));
 router.get("/:id", isValidId, ctrlWrapper(ctrl.getContactById));
 
 router.post("/", auth, ctrlWrapper(ctrl.addContact));
-
 router.put(
   "/:id",
   auth,
